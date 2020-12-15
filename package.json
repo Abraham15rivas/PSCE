@@ -18,6 +18,8 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
@@ -25,6 +27,8 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
